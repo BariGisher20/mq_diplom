@@ -662,7 +662,6 @@ footer{
 
 .social_media_list{
   text-align: center;
-
   margin-top: 65px;
   background-color:#f4f7f6;
 }
@@ -694,53 +693,4 @@ span.copyright{
   -ms-transform: matrix( 0.89112658082951,-0.00117745656185,0.00034460930939,0.89189022727576,0,0);
 }
 
-
-/* .Footer {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1660px;
-  height: 3508px;
-  z-index: 14;
-} */
-/* .Social {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1660px;
-  height: 3508px;
-  z-index: 13;
-}
-.Rectangle_8_copy_16 {
-  background-color: rgb(244, 247, 246);
-  position: absolute;
-  left: 245px;
-  top: 3295px;
-  width: 1170px;
-  height: 83px;
-  z-index: 6;
-}
-.Copyrights {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  width: 1660px;
-  height: 3508px;
-  z-index: 5;
-}
-.Copyright_©_2009–2019_City_Blog_LLC_____ {
-  font-size: 13.455px;
-  font-family: "Open Sans";
-  color: rgb(153, 153, 153);
-  font-weight: bold;
-  line-height: 3.333;
-  text-align: left;
-  -moz-transform: matrix( 0.89112658082951,-0.00117745656185,0.00034460930939,0.89189022727576,0,0);
-  -webkit-transform: matrix( 0.89112658082951,-0.00117745656185,0.00034460930939,0.89189022727576,0,0);
-  -ms-transform: matrix( 0.89112658082951,-0.00117745656185,0.00034460930939,0.89189022727576,0,0);
-  position: absolute;
-  left: 713.424px;
-  top: 3479.124px;
-  z-index: 4;
-} */
 
