@@ -92,9 +92,10 @@
                     <img src="images/trend1.jpg" alt="" class="article_img">
                     <div class="article_content">
                         <div class="article_category">
-                            <ul class="article_category">
+                            <ul>
                                 <li><a class="article__link" href="#">lifestyle</a></li>
                                 <li><a class="article__link" href="#">interior</a></li>
+
                             </ul>
                         </div>
                         <a href="#" class="article_title">
@@ -109,7 +110,7 @@
                     <img src="images/trend2.jpg" alt="" class="article_img">
                     <div class="article_content">
                         <div class="article_category">
-                            <ul class="article_category">
+                            <ul>
                                 <li><a class="article__link" href="#">food</a></li>
                             </ul>
                         </div>
@@ -125,7 +126,7 @@
                     <img src="images/trend3.jpg" alt="" class="article_img">
                     <div class="article_content">
                         <div class="article_category">
-                            <ul class="article_category">
+                            <ul>
                                 <li><a class="article__link" href="#">lifestyle</a></li>
                                 <li><a class="article__link" href="#">tavel</a></li>
                             </ul>
@@ -142,7 +143,7 @@
                     <img src="images/trend4.jpg" alt="" class="article_img">
                     <div class="article_content">
                         <div class="article_category">
-                            <ul class="article_category">
+                            <ul>
                                 <li><a class="article__link" href="#">food</a></li>
                                 <li><a class="article__link" href="#">health</a></li>
                             </ul>
@@ -170,11 +171,11 @@
                                     <li><a class="post__link" href="#">health</a></li>
                                 </ul>
                             </div>
-                            <a href="#" class="post_title">
-                                <div class="post_title">
-                                    <h3>10 мест, ради которых стоит проснуться на рассвете</h3>
-                                </div>
-                            </a>
+
+                            <div class="post_title">
+                                <h3><a href="#" class="post_title">10 мест, ради которых стоит проснуться на рассвете</a></h3>
+                            </div>
+
                             <div class="post_local_info">
                                 <div class="post_date">
                                     <span>10 июня 2019</span>
@@ -204,11 +205,11 @@
                                     <li><a class="post__link" href="#">lifestyle</a></li>
                                 </ul>
                             </div>
-                            <a href="#" class="post_title">
-                                <div class="post_title">
-                                    <h3>ЙОга для начинающих в домашних условиях</h3>
-                                </div>
-                            </a>
+
+                            <div class="post_title">
+                                <h3><a href="#" class="post_title">ЙОга для начинающих в домашних условиях</a></h3>
+                            </div>
+
                             <div class="post_local_info">
                                 <div class="post_date">
                                     <span>10 июня 2019</span>
@@ -237,11 +238,11 @@
                                     <li><a class="post__link" href="#">lifestyle</a></li>
                                 </ul>
                             </div>
-                            <a href="#" class="post_title">
-                                <div class="post_title">
-                                    <h3>Лучшие музыкальные фестивали этого лета</h3>
-                                </div>
-                            </a>
+
+                            <div class="post_title">
+                                <h3><a href="#" class="post_title">Лучшие музыкальные фестивали этого лета</a></h3>
+                            </div>
+
                             <div class="post_local_info">
                                 <div class="post_date">
                                     <span>10 июня 2019</span>
@@ -270,11 +271,11 @@
                                     <li><a class="post__link" href="#">food</a></li>
                                 </ul>
                             </div>
-                            <a href="#" class="post_title">
-                                <div class="post_title">
-                                    <h3>Наукоёмкий подход к кулинарии</h3>
-                                </div>
-                            </a>
+
+                            <div class="post_title">
+                                <h3><a href="#" class="post_title">Наукоёмкий подход к кулинарии</a></h3>
+                            </div>
+
                             <div class="post_local_info">
                                 <div class="post_date">
                                     <span>10 июня 2019</span>
@@ -303,10 +304,11 @@
                                     <li><a class="post__link" href="#">art</a></li>
                                 </ul>
                             </div>
-                            <a href="#" class="post_title">
-                                <div class="post_title">
-                                    <h3>делаем модные принты на подушках для интерьера </h3>
-                                </div>
+
+                            <div class="post_title">
+                                <h3><a href="#" class="post_title">делаем модные принты на подушках для интерьера</a>
+                                </h3>
+                            </div>
                             </a>
                             <div class="post_local_info">
                                 <div class="post_date">
@@ -406,7 +408,8 @@
                         </div>
                         <div class="sidebar_search">
                             <form class="sidebar_search_form">
-                                <input type="search" placeholder="Найти...">
+                                <input type="search" id="search" placeholder="Найти...">
+                                <label for="search" hidden>search</label>
                                 <button type="submit" class="sidebar_search_button"></button>
                             </form>
                         </div>
@@ -417,7 +420,9 @@
                                 </div>
                             </a>
                             <form class="sidebar_subscribe_form">
-                                <input type="email" placeholder="Ваш email-адрес">
+
+                                <input type="email" id="email" placeholder="Ваш email-адрес">
+                                <label for="email" hidden>Email</label>
                                 <button type="submit" class="sidebar_subscribe_button">Подписаться</button>
                             </form>
                         </div>
@@ -428,102 +433,58 @@
                                 </div>
                             </a>
                             <div class="sidebar_tags_list">
-                                <div class="sidebar_tags_item">
-                                    <a href="#" class="sidebar_tags_item_title_a">
-                                        <div class="sidebar_tags_item_title">
-                                            <span>Fashion</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="sidebar_tags_item">
-                                    <a href="#" class="sidebar_tags_item_title_a">
-                                        <div class="sidebar_tags_item_title">
-                                            <span>Music</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="sidebar_tags_item">
-                                    <a href="#" class="sidebar_tags_item_title_a">
-                                        <div class="sidebar_tags_item_title">
-                                            <span>lifestyle</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="sidebar_tags_item">
-                                    <a href="#" class="sidebar_tags_item_title_a">
-                                        <div class="sidebar_tags_item_title">
-                                            <span>art</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="sidebar_tags_item">
-                                    <a href="#" class="sidebar_tags_item_title_a">
-                                        <div class="sidebar_tags_item_title">
-                                            <span>interior</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="sidebar_tags_item">
-                                    <a href="#" class="sidebar_tags_item_title_a">
-                                        <div class="sidebar_tags_item_title">
-                                            <span>travel</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="sidebar_tags_item">
-                                    <a href="#" class="sidebar_tags_item_title_a">
-                                        <div class="sidebar_tags_item_title">
-                                            <span>food</span>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="sidebar_tags_item">
-                                    <a href="#" class="sidebar_tags_item_title_a">
-                                        <div class="sidebar_tags_item_title">
-                                            <span>health</span>
-                                        </div>
-                                    </a>
-                                </div>
+                                <ul class="sidebar_tags_item">
+                                    <li class="sidebar_tags_item_title">
+                                        <a href="#" class="sidebar_tags_item_title_a">Fashion</a>
+                                    </li>
+                                    <li class="sidebar_tags_item_title">
+                                        <a href="#" class="sidebar_tags_item_title_a">Music</a>
+                                    </li>
+                                    <li class="sidebar_tags_item_title">
+                                        <a href="#" class="sidebar_tags_item_title_a">lifestyle</a>
+                                    </li>
+                                    <li class="sidebar_tags_item_title">
+                                        <a href="#" class="sidebar_tags_item_title_a">art</a>
+                                    </li>
+                                    <li class="sidebar_tags_item_title">
+                                        <a href="#" class="sidebar_tags_item_title_a">interior</a>
+                                    </li>
+                                    <li class="sidebar_tags_item_title">
+                                        <a href="#" class="sidebar_tags_item_title_a">travel</a>
+                                    </li>
+                                    <li class="sidebar_tags_item_title">
+                                        <a href="#" class="sidebar_tags_item_title_a">food</a>
+                                    </li>
+                                    <li class="sidebar_tags_item_title">
+                                        <a href="#" class="sidebar_tags_item_title_a">health</a>
+                                    </li>
                             </div>
-
-                        </div>
-                        <div class="sidebar_categories">
-                            <a href="#" class="sidebar_categories_title_a">
-                                <div class="sidebar_categories_title">
-                                    <h2>Темы</h2>
-                                </div>
-                            </a>
-                            <div class="sidebar_categories_item">
-                                <a href="#" class="sidebar_categories_item_title">
-                                    <div class="sidebar_categories_item_title">
-                                        <span>Красота<sup>12</sup></span>
+                            <div class="sidebar_categories">
+                                <a href="#" class="sidebar_categories_title_a">
+                                    <div class="sidebar_categories_title">
+                                        <h2>Темы</h2>
                                     </div>
                                 </a>
-                                <a href="#" class="sidebar_categories_item_title">
-                                    <div class="sidebar_categories_item_title">
-                                        <span>Здоровье<sup>4</sup></span>
-                                    </div>
-                                </a>
-                                <a href="#" class="sidebar_categories_item_title">
-                                    <div class="sidebar_categories_item_title">
-                                        <span>Образ жизни<sup>145</sup></span>
-                                    </div>
-                                </a>
-                                <a href="#" class="sidebar_categories_item_title">
-                                    <div class="sidebar_categories_item_title">
-                                        <span>Музыка<sup>28</sup></span>
-                                    </div>
-                                </a>
-                                <a href="#" class="sidebar_categories_item_title">
-                                    <div class="sidebar_categories_item_title">
-                                        <span>Спорт<sup>62</sup></span>
-                                    </div>
-                                </a>
-                                <a href="#" class="sidebar_categories_item_title">
-                                    <div class="sidebar_categories_item_title">
-                                        <span>Йога<sup>8</sup></span>
-                                    </div>
-                                </a>
+                                <ul class="sidebar_categories_item">
+                                    <li class="sidebar_categories_item_title">
+                                        <a href="#" class="sidebar_categories_item_title">Красота<sup>12</sup></a>
+                                    </li>
+                                    <li class="sidebar_categories_item_title">
+                                        <a href="#" class="sidebar_categories_item_title">Здоровье<sup>4</sup></a>
+                                    </li>
+                                    <li class="sidebar_categories_item_title">
+                                        <a href="#" class="sidebar_categories_item_title">Образ жизни<sup>145</sup></a>
+                                    </li>
+                                    <li class="sidebar_categories_item_title">
+                                        <a href="#" class="sidebar_categories_item_title">Музыка<sup>28</sup></a>
+                                    </li>
+                                    <li class="sidebar_categories_item_title">
+                                        <a href="#" class="sidebar_categories_item_title">Спорт<sup>62</sup></a>
+                                    </li>
+                                    <li class="sidebar_categories_item_title">
+                                        <a href="#" class="sidebar_categories_item_title">Йога<sup>8</sup></a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -544,9 +505,7 @@
                         </div>
                         <div class="shop_item_info">
                             <a href="#" class="shop_item_title">
-                                <div class="shop_item_title">
                                     <h3>Подушки на диван</h3>
-                                </div>
                             </a>
                             <div class="shop_item_peview">
                                 Набор из двух подушек с модными принтами.
@@ -569,9 +528,7 @@
                         </div>
                         <div class="shop_item_info">
                             <a href="#" class="shop_item_title">
-                                <div class="shop_item_title">
                                     <h3>Кукла «Зайчик»</h3>
-                                </div>
                             </a>
                             <div class="shop_item_peview">
                                 Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена
@@ -594,9 +551,7 @@
                         </div>
                         <div class="shop_item_info">
                             <a href="#" class="shop_item_title">
-                                <div class="shop_item_title">
                                     <h3>Шестиугольная рамка</h3>
-                                </div>
                             </a>
                             <div class="shop_item_peview">
                                 Необычная рамка для украшения дома из видео
